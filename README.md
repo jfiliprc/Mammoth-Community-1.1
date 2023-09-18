@@ -5,6 +5,8 @@ Welcome to Mammoth Community 1.0, a community platform for mammoth enthusiasts. 
 ![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/7288f431-cbcb-458f-b92c-d134350e8f9c)
 ![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/c563d094-ddbf-4255-95fe-64228f6127bf)
 ![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/d87a1630-2564-4f19-8734-a14460962189)
+![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/b34f359b-2492-4993-8442-a6ec28579a2a)
+
 
 
 
