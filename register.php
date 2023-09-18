@@ -10,7 +10,7 @@
     <title>Mammoth Community</title>
     <style>
     .background-radial-gradient {
-        min-height: 100vh; /* Set the minimum height to 100% of viewport height */
+        min-height: 100vh;
         background-color: hsl(0, 0%, 10%);
         background-image: radial-gradient(650px circle at 0% 0%,
             hsl(0, 100%, 10%) 15%,
