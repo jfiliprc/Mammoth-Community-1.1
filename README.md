@@ -2,6 +2,9 @@
 
 Welcome to Mammoth Community 1.0, a community platform for mammoth enthusiasts. This PHP-based project allows users to create validated accounts, log in, share thoughts, view others' contributions, and log out. With a clean and simple design powered by Bootstrap and a touch of CSS, Mammoth Community 1.0 offers a space for like-minded individuals to connect and discuss their shared passion for mammoths.
 
+![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/7288f431-cbcb-458f-b92c-d134350e8f9c)
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
