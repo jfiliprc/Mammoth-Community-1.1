@@ -8,13 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Mammoth Community</title>
-  </head>
-  <body>
-
-
-<section class="background-radial-gradient overflow-hidden">
     <style>
     .background-radial-gradient {
+        min-height: 100vh; /* Set the minimum height to 100% of viewport height */
         background-color: hsl(0, 0%, 10%);
         background-image: radial-gradient(650px circle at 0% 0%,
             hsl(0, 100%, 10%) 15%,
@@ -54,6 +50,7 @@
         backdrop-filter: saturate(200%) blur(25px);
     }
     </style>
+  </head>
 
 <?php
 session_start();
@@ -131,79 +128,81 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-  <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-    <div class="row gx-lg-5 align-items-center mb-5">
-      <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-        <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-          Welcome to the <br />
-          <span style="color: red;">Mammoth Community</span>
-        </h1>
-        <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-        Nestled deep within the annals of prehistoric history, 
-        the Ancient Mammoth Community stands as a testament to the endurance and resilience of a bygone era. 
-        This extraordinary community flourished during a time when colossal woolly mammoths roamed the earth, 
-        shaping an existence intricately connected to the rhythms of the natural world.
-        </p>
-      </div>
+<body>
+  <div class="background-radial-gradient overflow-hidden">
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+            Welcome to the <br />
+            <span style="color: red;">Mammoth Community</span>
+          </h1>
+          <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+          Nestled deep within the annals of prehistoric history, 
+          the Ancient Mammoth Community stands as a testament to the endurance and resilience of a bygone era. 
+          This extraordinary community flourished during a time when colossal woolly mammoths roamed the earth, 
+          shaping an existence intricately connected to the rhythms of the natural world.
+          </p>
+        </div>
 
-      <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-        <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
 
-        <div class="card bg-glass">
-          <div class="card-body px-4 py-5 px-md-5">
-            <form method="POST">
-            <?php if (!empty($errors)): ?>
-                <div class="alert alert-danger">
-                    <ul>
-                        <?php foreach ($errors as $error): ?>
-                            <li><?php echo $error; ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                </div>
-            <?php endif; ?>
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="form-outline">
-                      <input type="text" id="firstName" name="firstName" class="form-control" />
-                      <label class="form-label" for="firstName">First name</label>
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+              <form method="POST">
+              <?php if (!empty($errors)): ?>
+                  <div class="alert alert-danger">
+                      <ul>
+                          <?php foreach ($errors as $error): ?>
+                              <li><?php echo $error; ?></li>
+                          <?php endforeach; ?>
+                      </ul>
+                  </div>
+              <?php endif; ?>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="firstName" name="firstName" class="form-control" />
+                        <label class="form-label" for="firstName">First name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="lastName" name="lastName" class="form-control" />
+                        <label class="form-label" for="lasttName">Last name</label>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="form-outline">
-                      <input type="text" id="lastName" name="lastName" class="form-control" />
-                      <label class="form-label" for="lasttName">Last name</label>
-                    </div>
+                  <div class="form-outline mb-4">
+                    <input type="email" id="eMail" name="eMail" class="form-control" />
+                    <label class="form-label" for="eMail">Email address</label>
+                  </div>
+                  <div class="form-outline mb-4">
+                    <input type="password" id="password" name="password" class="form-control" />
+                    <label class="form-label" for="password">Password</label>
+                  </div>
+                  <div class="d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-danger btn-block mb-4">
+                            Sign Up
+                        </button>
+                </div>
+            </form>
+
+                <div class="text-center">
+                  <p>Already have an account?</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                      <a href="login.php" class="btn btn-danger btn-block mb-4">
+                          Log in
+                      </a>
                   </div>
                 </div>
-                <div class="form-outline mb-4">
-                  <input type="email" id="eMail" name="eMail" class="form-control" />
-                  <label class="form-label" for="eMail">Email address</label>
-                </div>
-                <div class="form-outline mb-4">
-                  <input type="password" id="password" name="password" class="form-control" />
-                  <label class="form-label" for="password">Password</label>
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                      <button type="submit" class="btn btn-danger btn-block mb-4">
-                          Sign Up
-                      </button>
-              </div>
-          </form>
-
-              <div class="text-center">
-                <p>Already have an account?</p>
-                <div class="d-flex justify-content-center align-items-center">
-                    <a href="login.php" class="btn btn-danger btn-block mb-4">
-                        Log in
-                    </a>
-                </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
 </body>
 </html>
