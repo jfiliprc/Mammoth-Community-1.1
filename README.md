@@ -1,12 +1,12 @@
 
-# Mammoth Community 1.0
+# Mammoth Community 1.1
 
-Welcome to Mammoth Community 1.0, a community platform for mammoth enthusiasts. This PHP-based project allows users to create validated accounts, log in, share thoughts, view others' contributions, and log out. With a clean and simple design powered by Bootstrap and a touch of CSS, Mammoth Community 1.0 offers a space for like-minded individuals to connect and discuss their shared passion for mammoths.
+Welcome to Mammoth Community 1.1, a community platform for mammoth enthusiasts. This PHP-based project allows users to create validated accounts, log in, share thoughts, view others' contributions, and log out. With a clean and simple design powered by Bootstrap and a touch of CSS, Mammoth Community 1.1 offers a space for like-minded individuals to connect and discuss their shared passion for mammoths.
 
-![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/7288f431-cbcb-458f-b92c-d134350e8f9c)
-![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/c563d094-ddbf-4255-95fe-64228f6127bf)
-![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/862692e4-7a1f-4b71-912a-d8049f8515c2)
-![image](https://github.com/jfiliprc/Mammoth-Community-1.0/assets/109008096/e92db033-2877-4bd3-9c16-d10e2fa44da8)
+![image](https://github.com/jfiliprc/Mammoth-Community-1.1/assets/109008096/7288f431-cbcb-458f-b92c-d134350e8f9c)
+![image](https://github.com/jfiliprc/Mammoth-Community-1.1/assets/109008096/c563d094-ddbf-4255-95fe-64228f6127bf)
+![image](https://github.com/jfiliprc/Mammoth-Community-1.1/assets/109008096/862692e4-7a1f-4b71-912a-d8049f8515c2)
+![image](https://github.com/jfiliprc/Mammoth-Community-1.1/assets/109008096/e92db033-2877-4bd3-9c16-d10e2fa44da8)
 
 
 
@@ -24,7 +24,7 @@ Welcome to Mammoth Community 1.0, a community platform for mammoth enthusiasts. 
 
 ## Getting Started
 
-To set up and run Mammoth Community 1.0 on your local machine, follow these steps:
+To set up and run Mammoth Community 1.1 on your local machine, follow these steps:
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ To set up and run Mammoth Community 1.0 on your local machine, follow these step
 
 1. **Clone the Repository**: Clone this repository to your local machine.
 ```bash
-git clone https://github.com/jfiliprc/Mammoth-Community-1.0.git
+git clone https://github.com/jfiliprc/Mammoth-Community-1.1.git
 ```
 2. **Database Setup**: Import the database structure from the `forum.sql` file into your MySQL or MariaDB database.
 ```bash
@@ -52,7 +52,7 @@ mysql -u yourusername -p yourdatabase < forum.sql
 
 ## Features
 
-Mammoth Community 1.0 includes the following features:
+Mammoth Community 1.1 includes the following features:
 
 - User Registration and Authentication
 - User Login and Logout
@@ -62,7 +62,7 @@ Mammoth Community 1.0 includes the following features:
 
 ## Usage
 
-As an end-user or administrator, here's how you can use Mammoth Community 1.0:
+As an end-user or administrator, here's how you can use Mammoth Community 1.1:
 
 1. **Register**: Create a new user account with the required information. Ensure your registration is validated.
 
@@ -80,7 +80,7 @@ The database structure for Mammoth Community is defined in the `forum.sql` file.
 
 ## Contributing
 
-We welcome contributions to Mammoth Community 1.0. To contribute, follow these steps:
+We welcome contributions to Mammoth Community 1.1. To contribute, follow these steps:
 
 1. Fork the repository to your GitHub account.
 
